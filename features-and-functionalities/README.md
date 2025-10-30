@@ -142,7 +142,7 @@ Review: {review_id, booking_id, user_id, property_id, rating, comment, created_a
 - Aggregate ratings per property  
 - fetching reviews & averages  
 
-**Draw.io Elements:**
+**Elements:**
 - Review Service ↔ Booking Service ↔ Property Service  
 
 ---
@@ -203,7 +203,7 @@ Admin: {id, email, role, created_at}
 
 ---
 
-## Suggested Draw.io Diagram Layout
+## Diagram Layout
 
 ```
 [Client App]
