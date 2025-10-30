@@ -206,25 +206,7 @@ Admin: {id, email, role, created_at}
 ## Diagram Layout
 
 ```
-[Client App]
-    ↓
-[API Gateway]
-    ↓
- ┌───────────────────────────────────────────┐
- │                Backend                    │
- │───────────────────────────────────────────│
- │ [Auth Service] ─ [User DB]                │
- │ [Property Service] ─ [Property DB]        │
- │ [Booking Service] ─ [Booking DB]          │
- │ [Payment Service] ─ [Payment DB]          │
- │ [Review Service] ─ [Review DB]            │
- │ [Notification Service] ─ [MQ + Email/SMS] │
- │ [Admin/Analytics Service]                 │
- └───────────────────────────────────────────┘
-    ↓
-[External APIs: Payment Gateway, Email, SMS]
-    ↓
-[Storage: S3 / GCS]
+https://github.com/Pkal-99/alx-airbnb-project-documentation/blob/main/features-and-functionalities/AIR_BnB_Backend_System_Design.jpg 
 ```
 
 ---
