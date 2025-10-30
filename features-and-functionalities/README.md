@@ -206,7 +206,9 @@ Admin: {id, email, role, created_at}
 ## Diagram Layout
 
 ```
-https://github.com/Pkal-99/alx-airbnb-project-documentation/blob/main/features-and-functionalities/AIR_BnB_Backend_System_Design.jpg 
+![Air BnB Backend System Design] https://github.com/Pkal-99/alx-airbnb-project-documentation/blob/main/features-and-functionalities/AIR_BnB_Backend_System_Design.jpg
+
+
 ```
 
 ---
