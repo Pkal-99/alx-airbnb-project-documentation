@@ -86,12 +86,13 @@ Availability: {property_id, date, is_available}
 ```plaintext
 Booking: {booking_id, user_id, property_id, start_date, end_date, total_price, status, created_at}
 Booking_Status: enum {Pending, Confirmed, Cancelled, Completed}
-
+Calendar: {property_id, date, is_booked}
 ```
 
 #### **Features**
 - Search properties by date, Location, Number of guests, Amenities (e.g., Wi-Fi, pool, pet-friendly)
-- Check real-time availability  
+- Check real-time availability
+- Create booking 
 - Cancel booking (with host approval or policy)  
 - Generate booking confirmation details  
 - Integrate with notifications (email)
@@ -117,10 +118,13 @@ Payout: {id, host_id, amount, status}
 
 #### **Features**
 - Integration with payment gateways (Stripe, PayPal)  
-- Payment authorization & confirmation  
+- Payment authorization & confirmation
+- Payment authorization & confirmation
+- Refunds and cancellations
+- Host payouts and Air BnB commission calculation
 - Transaction history 
 
-**Draw.io Elements:**
+**Elements:**
 - Payment Service  
   ↳ Connects to → Booking Service (booking_id)  
   ↳ Connects to → External Payment Gateway  
@@ -160,7 +164,7 @@ Notification: {id, user_id, message, type, status, created_at}
 - Email notifications (SendGrid or Mailgun)  
 - Push notifications for mobile app  
 - Booking confirmations
-- Cancellations
+- Booking Cancellations
 - Payment updates 
 
 ---
@@ -206,8 +210,7 @@ Admin: {id, email, role, created_at}
 ## Diagram Layout
 
 ```
-![Air BnB Backend System Design] https://github.com/Pkal-99/alx-airbnb-project-documentation/blob/main/features-and-functionalities/AIR_BnB_Backend_System_Design.jpg
-
+https://github.com/Pkal-99/alx-airbnb-project-documentation/blob/main/features-and-functionalities/AIR_BnB_Backend_System_Design.jpg
 
 ```
 
